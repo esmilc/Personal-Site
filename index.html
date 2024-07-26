@@ -11,6 +11,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YT963SSJ1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YT963SSJ1Q');
+</script>
+
+
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -34,7 +46,7 @@
 								<strong><u><i>Notice: Website is still under development!</i></strong></u></h2>
 						</header>
 						<p>I am a highly curious and motivated computer science and finance student at the University of Florida. Having completed my first year, I have gained many foundational skills that I am 
-							eager to apply in future internships and career.  With my strong my curiosity to learn more and deep interest in finance, I bring a fresh, new perspective to the table. 
+							eager to apply in future internships and career.  With my strong curiosity to learn more and deep interest in finance, I bring a fresh, new perspective to the table. 
 							Throughout the summer, I had the privilege of interning at Florida’s Department of Transportation. I gained valuable experience in both networking and workstation 
 							support. 
 
@@ -99,9 +111,26 @@
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 						-->
+
+						<script>
+							function verifyCode(){
+								const intv = "interview";
+								const redirect = "https://www.apple.com";
+
+								let usercode = prompt("Please Enter Code")
+
+								if (usercode == intv){
+									window.location.href = redirect
+								}
+
+
+
+							}
+						</script>
+
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
+							<li><a href="#" class="button" >Full Portfolio</a></li>
 						</ul>
 					</section>
 
@@ -473,6 +502,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						-->
 						<li><a href="mailto:esmilcanet0711@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						
+						<li><a href="#" class="icon solid fa-lock" onclick="verifyCode()" ><span class="label"></span></a></li>
+
 					
 				</div>
 			</footer>
