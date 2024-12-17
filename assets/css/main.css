@@ -37,6 +37,10 @@ ol, ul {
 	list-style: none;
 }
 
+.heads-up{
+	font-style: italic;
+}
+
 blockquote, q {
 	quotes: none;
 }
