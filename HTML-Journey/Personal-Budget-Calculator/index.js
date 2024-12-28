@@ -66,7 +66,7 @@ calcButton.onclick = function() {
 
     document.getElementById("insights-bob").textContent = insightText;
 
-    let num = Math.floor(Math.random()*6);
+    let num = Math.floor(Math.random()*5)+1;
     let tipToDisplay ;
 
     switch(num){
