@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Budget Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Personal Budget Calculator</h1><br>
+    <h3><em>Still in progress!</em></h2>
+
+    <form id="user-inputs">
+        <label for="monthly-income">Monthly Income:</label>
+        <input type="number" id="monthly-income" placeholder="Enter income here."><br><br>
+
+        <label for="rent">Rent:</label>
+        <input type="number" id="rent" placeholder="Enter rent here."><br><br>
+        <label for="food">Food:</label>
+        <input type="number" id="food" placeholder="Enter food costs here."><br><br>
+        <label for="utilities">Monthly Utilities:</label>
+        <input type="number" id="utilities" placeholder="Enter monthly utilities here."><br><br>
+        <label for="other-costs">Other Costs:</label>
+        <input type="number" id="other-costs" placeholder="Enter other costs here."><br><br>
+
+        <button type="button" id="calculate-budget">Calculate Budget</button>
+    </form>
+
+    <div id="summary">
+        <h2>Summary:</h2>
+
+        <h4 style="display: inline;">Total Income:</h4>
+        <p style="display: inline;" id="total-income"></p><br><br>
+
+        <h4 style="display: inline;">Total Expenses:</h4>
+        <p style="display: inline;" id="total-expenses"></p>
+
+        <div id="expenses-breakdown">
+            <p style="display: inline;"><span class="tab"></span>Rent: </p>
+            <p style="display: inline;" id="rent-display"></p><br>
+
+            <p style="display: inline;"><span class="tab"></span>Food: </p>
+            <p style="display: inline;" id="food-display"></p><br>
+
+            <p style="display: inline;"><span class="tab"></span>Utilities: </p>
+            <p style="display: inline;" id="utilities-display"></p><br>
+
+            <p style="display: inline;"><span class="tab"></span>Other: </p>
+            <p style="display: inline;" id="other-display"></p>
+        </div>
+
+        <h4 style="display: inline;">Leftover Money:</h4>
+        <p style="display: inline;" id="total-leftover"></p><br><br>
+
+    </div>
+    <div id="insights">
+        <h2>Insights from Bob:</h2>
+        <p id="insights-bob"></p>
+        <h3>Bob's Tip:</h3>
+        <p id="tip"></p>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
