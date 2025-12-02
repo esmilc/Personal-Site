@@ -107,7 +107,7 @@ function ExperienceSection() {
     <div className="space-y-3 text-sm text-zinc-100">
       {/* cards or “git log” style entries */}
       <p className="font-mono text-emerald-300">~/experience</p>
-      <p>// Fill in Google, Bloomberg, CodePath, UF, etc.</p>
+      <p>// Fill in Google, CodePath, UF, etc.</p>
     </div>
   );
 }
